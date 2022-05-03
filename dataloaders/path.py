@@ -12,7 +12,7 @@ class Path(object):
         if database == 'nyu':
             return '/home/data/model/wangxin/nyudepthv2'
         elif database == 'kitti':
-            return '/home/data/UnsupervisedDepth/wangixn/kitti'
+            return 'C:\Users\user\Desktop\data'
         else:
             print('Database {} not available.'.format(database))
             raise NotImplementedError
